@@ -2,12 +2,14 @@
 cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
 
 list(APPEND CMAKE_PREFIX_PATH
-    $ENV{USER_DEVELOP}/opencv/build-litiv/install/ $ENV{USER_DEVELOP}/opencv/build/install $ENV{USER_DEVELOP}/opencv/
-    $ENV{USER_DEVELOP}/freeglut/build-litiv/install/ $ENV{USER_DEVELOP}/freeglut/build/install $ENV{USER_DEVELOP}/freeglut/
-    $ENV{USER_DEVELOP}/glfw/build-litiv/install/ $ENV{USER_DEVELOP}/glfw/build/install $ENV{USER_DEVELOP}/glfw/
-    $ENV{USER_DEVELOP}/glew/build-litiv/install/ $ENV{USER_DEVELOP}/glew/build/install $ENV{USER_DEVELOP}/glew/
-    $ENV{USER_DEVELOP}/glm/build-litiv/install/ $ENV{USER_DEVELOP}/glm/build/install $ENV{USER_DEVELOP}/glm/
-    $ENV{USER_DEVELOP}/opengm/build-litiv/install/ $ENV{USER_DEVELOP}/opengm/build/install $ENV{USER_DEVELOP}/opengm/
+    "$ENV{USER_DEVELOP}/cuda-litiv/" "$ENV{USER_DEVELOP}/cuda-latest/" "$ENV{USER_DEVELOP}/cuda/"
+    "$ENV{USER_DEVELOP}/opencv/build-litiv/install/" "$ENV{USER_DEVELOP}/opencv/build/install" "$ENV{USER_DEVELOP}/opencv/"
+    "$ENV{USER_DEVELOP}/freeglut/build-litiv/install/" "$ENV{USER_DEVELOP}/freeglut/build/install" "$ENV{USER_DEVELOP}/freeglut/"
+    "$ENV{USER_DEVELOP}/glfw/build-litiv/install/" "$ENV{USER_DEVELOP}/glfw/build/install" "$ENV{USER_DEVELOP}/glfw/"
+    "$ENV{USER_DEVELOP}/glew/build-litiv/install/" "$ENV{USER_DEVELOP}/glew/build/install" "$ENV{USER_DEVELOP}/glew/"
+    "$ENV{USER_DEVELOP}/glm/build-litiv/install/" "$ENV{USER_DEVELOP}/glm/build/install" "$ENV{USER_DEVELOP}/glm/"
+    "$ENV{USER_DEVELOP}/opengm/build-litiv/install/" "$ENV{USER_DEVELOP}/opengm/build/install" "$ENV{USER_DEVELOP}/opengm/"
+    "$ENV{USER_DEVELOP}/eigen3/build-litiv/install/" "$ENV{USER_DEVELOP}/eigen3/build/install/" "$ENV{USER_DEVELOP}/eigen3/"
 )
 
 ################################################################
